@@ -35,7 +35,7 @@ router.post("/furnitures",async(requst:Request,response:Response,next:NextFuncti
       const furniture=new FurnitureModel(requst.body)
     
       const addedFurniture=await furnitureLogic.addFurniture(furniture)
-      response.sendStatus(201).json(addedFurniture)
+      response.status(201).json(addedFurniture)
 
    } catch (error:any) {
     next(error)

@@ -1,0 +1,6 @@
+23.5.2023, 5:11:55 	 Unexpected token } in JSON at position 163
+----------------------------
+23.5.2023, 5:12:16 	 Route /api/furnitures not exist
+----------------------------
+23.5.2023, 5:12:57 	 Cannot set headers after they are sent to the client
+----------------------------
